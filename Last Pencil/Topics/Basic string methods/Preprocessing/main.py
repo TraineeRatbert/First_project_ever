@@ -1,0 +1,7 @@
+text = input()
+text_2 = text.replace(",", "")
+text_3 = text_2.replace(".", "")
+text_4 = text_3.replace("!", "")
+text_5 = text_4.replace("?", "")
+text_6 = text_5.lower()
+print(text_6)
